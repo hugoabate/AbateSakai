@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container00 {
+  background-color: #d8d9cf;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.container01 {
+  min-height: 10vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container02 {
+  border-radius: auto;
+}
+
+.logoPc {
+  width: 120px;
+  margin-left: -10px;
+  margin-right: 30px;
+}
+
+#navBtn {
+  font-size: 16px;
+  padding: 6px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: black;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+#navBtn:hover {
+  border-block: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  transition: 1s;
+  border-radius: 50px;
+}
+
+.firstTitle {
+  margin-left: 5vh;
+}
+
+.cd1 {
+  margin-left: 3vh;
+  width: 50rem;
+}
+
+.cd2 {
+  margin-left: 65vh;
+  width: 50rem;
+  margin-right: 0px;
+}
+
+.imgCard {
+  padding-top: 45px;
+  padding-left: 20px;
+}
+
+.cd3 {
+  margin-left: 3vh;
+  width: 48rem;
+}
+
+.cd4 {
+  align-items: self-end;
+  font-size: 20px;
+  margin-left: 150vh;
+  width: 16rem;
+}
+
+#footer {
+  height: 15vh;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(71, 71, 71);
+}
+
+/*# sourceMappingURL=style.css.map */
