@@ -1,3 +1,4 @@
+/* Definições iniciais */
 * {
   margin: 0px;
   padding: 0px;
@@ -40,6 +41,7 @@
   transition: 0.4s;
   border-radius: 20px;
 }
+
 #navBtn:hover {
   border-block: 2px solid black;
   border-left: 2px solid black;
@@ -90,4 +92,33 @@
   color: rgb(71, 71, 71);
 }
 
-/*# sourceMappingURL=style.css.map */
+/* Media queries */
+@media only screen and (max-width: 600px) {
+  .firstTitle {
+    margin-left: 2vh;
+  }
+
+  .cd1,
+  .cd2,
+  .cd3,
+  .cd4 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .imgCard {
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  #footer {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .logoPc {
+    display: none;
+  }
+}
