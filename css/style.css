@@ -1,4 +1,4 @@
-/* Definições iniciais */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -34,8 +34,12 @@
 #navBtn {
   font-size: 16px;
   padding: 6px;
+  margin: 3px;
   background-color: transparent;
-  border: 2px solid transparent;
+  border-block: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 50px;
   color: black;
   cursor: pointer;
   transition: 0.4s;
@@ -43,11 +47,7 @@
 }
 
 #navBtn:hover {
-  border-block: 2px solid black;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  transition: 1s;
-  border-radius: 50px;
+  transform: scale(1.1);
 }
 
 .firstTitle {
@@ -78,8 +78,8 @@
 .cd4 {
   align-items: self-end;
   font-size: 20px;
-  margin-left: 150vh;
-  width: 16rem;
+  margin-left: 148vh;
+  width: 18rem;
 }
 
 #footer {
