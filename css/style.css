@@ -100,13 +100,17 @@
 
   .cd1,
   .cd2,
-  .cd3,
-  .cd4 {
+  .cd3 {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
   }
-
+  .cd4 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
+  }
   .imgCard {
     padding-top: 20px;
     padding-left: 10px;
